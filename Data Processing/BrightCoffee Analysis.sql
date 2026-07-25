@@ -50,17 +50,17 @@ coffee_sales_enriched AS (
         END AS transaction_time_bucket,
 
         -- Sales Category
-        CASE
-            WHEN total_amount < 10 THEN 'Small Purchase'
-            WHEN total_amount BETWEEN 10 AND 20 THEN 'Medium Purchase'
-            ELSE 'Large Purchase'
-        END AS sales_category,
+    CASE
+        WHEN transaction_qty * CAST(REPLACE(unit_price, ',', '.') AS DOUBLE) < 5 THEN 'Small Purchase'
+        WHEN transaction_qty * CAST(REPLACE(unit_price, ',', '.') AS DOUBLE) BETWEEN 5 AND 15 THEN 'Medium Purchase'
+        ELSE 'Large Purchase'
+    END AS sales_category,
 
         -- Day of Week
-        DATE_FORMAT(transaction_date, 'EEEE') AS day_of_week,
+        DAYNAME(transaction_date) AS day_of_week,
 
         -- Month Name
-        DATE_FORMAT(transaction_date, 'MMMM') AS month_name,
+        MONTHNAME(transaction_date) AS month_name,
 
         -- Weekend / Weekday
         CASE
