@@ -138,8 +138,8 @@ ORDER BY revenue DESC;
 ---Query 7: Sales Category Distribution(Visualization: Donut Chart or Stacked Bar Chart)
 SELECT
     CASE
-        WHEN total_amount < 10 THEN 'Small Purchase'
-        WHEN total_amount BETWEEN 10 AND 20 THEN 'Medium Purchase'
+        WHEN total_amount < 5 THEN 'Small Purchase'
+        WHEN total_amount BETWEEN 5 AND 15 THEN 'Medium Purchase'
         ELSE 'Large Purchase'
     END AS sales_category,
     COUNT(*) AS transactions,
