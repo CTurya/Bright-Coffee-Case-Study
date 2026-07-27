@@ -1971,7 +1971,7 @@
   "pages": [
     {
       "name": "01d77755",
-      "displayName": "Untitled Page",
+      "displayName": "Bright Coffee Shop",
       "layout": [
         {
           "widget": {
@@ -2335,6 +2335,9 @@
                   "scale": {
                     "type": "categorical"
                   }
+                },
+                "label": {
+                  "show": true
                 }
               },
               "data": {
@@ -2372,32 +2375,25 @@
               }
             ],
             "spec": {
-              "version": 3,
               "frame": {
                 "title": "Top 10 Products by Revenue",
                 "showTitle": true
               },
+              "version": 3,
               "widgetType": "bar",
               "encodings": {
                 "x": {
                   "fieldName": "product_detail",
-                  "displayName": "product_detail",
+                  "displayName": "Product",
                   "scale": {
                     "type": "categorical"
                   }
                 },
                 "y": {
                   "fieldName": "sum(total_amount)",
-                  "displayName": "total_amount",
+                  "displayName": "Revenue",
                   "scale": {
                     "type": "quantitative"
-                  }
-                },
-                "color": {
-                  "fieldName": "product_detail",
-                  "displayName": "product_detail",
-                  "scale": {
-                    "type": "categorical"
                   }
                 }
               },
