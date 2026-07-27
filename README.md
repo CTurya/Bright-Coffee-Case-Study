@@ -1,4 +1,4 @@
-d# Bright Coffee Shop Sales Analysis — Case Study
+# Bright Coffee Shop Sales Analysis — Case Study
 
 ## Overview
 
@@ -25,8 +25,12 @@ Full detail, numbers, and the resulting recommendations are in the Dashboard wor
 
 ## Tools used
 
+- **SQL (Databricks / Spark SQL)** — data cleaning and transformation
 - **Microsoft Excel** — formula-driven analysis and native charts
-- **Python (pandas)** — data cleaning and transformation (unit price casting, time-bucket derivation, aggregation)
+- **Power BI** — interactive dashboard with DAX measures
+- **Google Looker Studio** — cloud-hosted interactive dashboard
+- **Databricks** — dashboard built directly on the cleaned Spark tables
+- **Web dashboards** — custom-built web app dashboard
 - **PowerPoint** — final stakeholder presentation
 - **Miro** — project planning flowchart (data flow & architecture)
 
@@ -51,4 +55,4 @@ Bright_Coffee_Shop_Case_Study/
 
 ## About
 
-Data analytics case study analyzing Bright Coffee Shop transaction data — Excel, Python, and PowerPoint — with CEO-facing revenue and product performance recommendations.
+Data analytics case study analyzing Bright Coffee Shop transaction data — SQL, Excel, Power BI, Data Studio, Databricks, and web dashboards — with CEO-facing revenue and product performance recommendations.
