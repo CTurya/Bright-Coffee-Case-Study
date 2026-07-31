@@ -20,8 +20,42 @@ The dataset covers **149,116 transactions** across **3 New York store locations*
 - **Weekday vs weekend demand is nearly identical** (~$3,874/day vs ~$3,828/day) — sales are consistent across the week rather than weekend-driven.
 - **All three stores perform within 3% of each other** ($236,511 / $232,244 / $230,057) — no location is underperforming, so growth initiatives should be rolled out chain-wide rather than store-specific.
 - **Barista Espresso, Brewed Chai Tea, and Hot Chocolate** are the top 3 revenue-generating products; **Green Beans, Green Tea, Organic Chocolate, Sugar Free Syrup, and Black Tea** are the lowest performers and are candidates for bundling, promotion, or review.
+- 
+## Key Business Insights
+☕ Product Performance
+Coffee generated the highest revenue.
+Tea was the second-largest contributor.
+Bakery products complemented coffee sales.
+🏪 Store Performance
+Hell's Kitchen recorded the strongest performance.
+Revenue remained relatively balanced across all stores.
+⏰ Customer Behaviour
+Morning was the busiest trading period.
+Medium purchases represented the largest share of sales.
+Large purchases were relatively uncommon.
+💡 Business Opportunities
+Increase afternoon promotions.
+Bundle bakery items with coffee.
+Optimise inventory for high-demand products.
+Introduce customer loyalty incentives.
 
-Full detail, numbers, and the resulting recommendations are in the Dashboard workbook and the final presentation.
+## Business Recommendations
+📣 Increase Sales During Off-Peak Hours
+Introduce afternoon promotions and bundle offers to increase customer traffic.
+📦 Optimise Inventory
+Increase stock levels for high-performing coffee and tea products.
+🎯 Promote Underperforming Products
+Use seasonal campaigns, product bundles and loyalty rewards to improve product visibility.
+
+## Data Cleaning
+The dataset was transformed into an analytical dataset by:
+Converting unit_price to numeric
+Creating total_amount
+Extracting month names
+Creating time buckets
+Classifying Weekday vs Weekend
+Creating sales categories
+Building a reusable SQL analytical view
 
 ## Tools used
 
