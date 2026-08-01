@@ -4,7 +4,7 @@
 
 This project analyses transactional sales data from **Bright Coffee Shop** to uncover insights into revenue performance, customer purchasing behaviour, product popularity, and sales trends. Using SQL and Business Intelligence tools, I transformed raw point-of-sale data into meaningful KPIs and interactive dashboards that support operational and strategic decision-making.
 
-The project demonstrates my ability to clean, analyse, and visualise retail sales data while communicating actionable business insights through interactive dashboards. :contentReference[oaicite:0]{index=0}
+The project demonstrates my ability to clean, analyse, and visualise retail sales data while communicating actionable business insights through interactive dashboards. 
 
 ---
 
@@ -20,7 +20,7 @@ The project demonstrates my ability to clean, analyse, and visualise retail sale
 | Peak Trading Period | **Morning** |
 | Largest Customer Segment | **Small Purchases (62.7%)** |
 
-These KPIs provide a high-level overview of the coffee shop's operational performance during the reporting period. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+These KPIs provide a high-level overview of the coffee shop's operational performance during the reporting period. 
 
 ---
 
@@ -149,17 +149,17 @@ Products were analysed according to:
 
 The analysis uncovered several valuable business insights:
 
-- Bright Coffee Shop generated **$698.81K** in total revenue from **149,116 transactions**, selling **214,470 products**, with an average transaction value of **$4.69**. :contentReference[oaicite:3]{index=3}
+- Bright Coffee Shop generated **$698.81K** in total revenue from **149,116 transactions**, selling **214,470 products**, with an average transaction value of **$4.69**. :contentReference
 
-- **Coffee and Tea** generated the highest revenue, with **Barista Espresso** and **Brewed Chai Tea** emerging as the top-performing product types. :contentReference[oaicite:4]{index=4}
+- **Coffee and Tea** generated the highest revenue, with **Barista Espresso** and **Brewed Chai Tea** emerging as the top-performing product types. :contentReference
 
-- **Weekday revenue (~$500K)** significantly exceeded **weekend revenue (~$199K)**, suggesting customer demand is driven primarily by weekday commuters and office workers. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+- **Weekday revenue (~$500K)** significantly exceeded **weekend revenue (~$199K)**, suggesting customer demand is driven primarily by weekday commuters and office workers. :contentReference
 
-- **Morning trading hours** generated the highest revenue (approximately **$370K**), outperforming both afternoon and evening sales. :contentReference[oaicite:7]{index=7}
+- **Morning trading hours** generated the highest revenue (approximately **$370K**), outperforming both afternoon and evening sales. 
 
-- Approximately **62.7%** of all purchases were small transactions, indicating opportunities to increase average basket value through upselling and bundled offers. :contentReference[oaicite:8]{index=8} :contentReference[oaicite:9]{index=9}
+- Approximately **62.7%** of all purchases were small transactions, indicating opportunities to increase average basket value through upselling and bundled offers. 
 
-- Transaction analysis identified several consistently high-performing products that can be prioritised for inventory planning and future promotions. :contentReference[oaicite:10]{index=10}
+- Transaction analysis identified several consistently high-performing products that can be prioritised for inventory planning and future promotions. 
 
 ---
 
@@ -172,7 +172,7 @@ Based on the findings, the following recommendations are proposed:
 - Introduce bundled offers and upselling strategies to increase the average transaction value.
 - Develop targeted weekend promotions to improve weekend sales performance.
 - Prioritise inventory planning for top-selling products to minimise stock shortages.
-- Restore access to the store location dataset to enable branch-level performance analysis and benchmarking. :contentReference[oaicite:11]{index=11}
+- Restore access to the store location dataset to enable branch-level performance analysis and benchmarking. 
 
 ---
 
@@ -231,7 +231,7 @@ README.md
 - Store-level revenue analysis could not be completed because access to the underlying location dataset was unavailable.
 - Customer demographic information was not included, limiting customer segmentation analysis.
 - Product profitability could not be calculated because product cost data was unavailable.
-- The analysis is based on historical transactional sales data and does not include external factors such as seasonality, marketing campaigns, or competitor activity. :contentReference[oaicite:12]{index=12}
+- The analysis is based on historical transactional sales data and does not include external factors such as seasonality, marketing campaigns, or competitor activity. 
 
 ---
 
